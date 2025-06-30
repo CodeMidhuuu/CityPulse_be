@@ -143,12 +143,12 @@ MEDIA_ROOT = BASE_DIR / 'media'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # For testing
 
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'citypulse.notify@gmail.com'
-EMAIL_HOST_PASSWORD = 'qjpf jvtz llgb gaqt'
-DEFAULT_FROM_EMAIL = 'citypulse.notify@gmail.com'
-ADMIN_EMAIL = 'jinoygaskin@gmail.com'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = 'citypulse.notify@gmail.com'
+# EMAIL_HOST_PASSWORD = 'qjpf jvtz llgb gaqt'
+# DEFAULT_FROM_EMAIL = 'citypulse.notify@gmail.com'
+# ADMIN_EMAIL = 'jinoygaskin@gmail.com'
 
 SITE_URL = 'http://127.0.0.1:8000'
